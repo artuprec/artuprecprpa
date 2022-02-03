@@ -1,0 +1,306 @@
+Script started on 2022-02-03 10:18:21+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="55"]
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ ssh -keyge[K[K[K[K[K[K[K-keygen /home[K[K[K[K[K-t rsa -b 2048
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/alumno/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/alumno/.ssh/id_rsa
+Your public key has been saved in /home/alumno/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:7WQNXmgihXGFdFt/J+Myof+trx+yol8T+zPkGT3czJU alumno@aula444
+The key's randomart image is:
++---[RSA 2048]----+
+|      .++oo .    |
+|      .o.. + .   |
+|      . . = o + +|
+|       . = = o Eo|
+|        S * +.oo+|
+|         + . oo==|
+|          . .=o.+|
+|           ...=*.|
+|         .o...+**|
++----[SHA256]-----+
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ mv id_rs[K[K[K[K[K/hmoe[K[K[Kome [K/alumno/.ssh/id_rsa.pu /home [K/alumno/.ssh/artuprec@u[Ksimba.pubb /home/alumno/.ssh/artuprec@simba.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cd 7[K]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cd 7[K]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cd 7[K/home [K/alumno/.ssh/[K
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ ls
+artuprec@simba.pub  id_rsa  known_hosts
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ lscd /home/alumno/.sshls[K[K[Kmv id[K[Kartuprec@u[Ksimba.pub artuprec.pub
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ mv artuprec@simba.pub artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+artuprec.pub  id_rsa  known_hosts
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0         7:0    0     4K  1 loop /snap/bare/5
+loop1         7:1    0  99,4M  1 loop /snap/core/11993
+loop2         7:2    0  61,9M  1 loop /snap/core20/1328
+loop3         7:3    0 210,1M  1 loop /snap/eclipse/48
+loop4         7:4    0 184,8M  1 loop /snap/eclipse/40
+loop5         7:5    0 247,9M  1 loop /snap/gnome-3-38-2004/87
+loop6         7:6    0   2,5M  1 loop /snap/gnome-system-monitor/169
+loop7         7:7    0   219M  1 loop /snap/gnome-3-34-1804/77
+loop8         7:8    0  67,8M  1 loop /snap/lxd/18150
+loop9         7:9    0  67,2M  1 loop /snap/lxd/21835
+loop10        7:10   0  67,3M  1 loop /snap/jupyter/6
+loop11        7:11   0   219M  1 loop /snap/gnome-3-34-1804/72
+loop12        7:12   0  55,5M  1 loop /snap/core18/2246
+loop13        7:13   0 110,5M  1 loop /snap/core/12603
+loop14        7:14   0 242,4M  1 loop /snap/gnome-3-38-2004/76
+loop15        7:15   0 528,6M  1 loop /snap/pycharm-community/268
+loop16        7:16   0 725,8M  1 loop /snap/intellij-idea-educational/40
+loop17        7:17   0  61,9M  1 loop /snap/core20/1169
+loop18        7:18   0 164,8M  1 loop /snap/gnome-3-28-1804/161
+loop19        7:19   0  65,2M  1 loop /snap/gtk-common-themes/1519
+loop20        7:20   0   2,5M  1 loop /snap/gnome-system-monitor/174
+loop21        7:21   0 870,4M  1 loop /snap/intellij-idea-educational/43
+loop22        7:22   0 162,9M  1 loop /snap/gnome-3-28-1804/145
+loop23        7:23   0  55,5M  1 loop /snap/core18/2284
+loop24        7:24   0  54,2M  1 loop /snap/snap-store/558
+loop25        7:25   0 304,8M  1 loop /snap/spark/24
+loop27        7:27   0    51M  1 loop /snap/snap-store/547
+loop28        7:28   0 140,7M  1 loop /snap/gnome-3-26-1604/104
+loop29        7:29   0  64,8M  1 loop /snap/gtk-common-themes/1514
+loop30        7:30   0 140,7M  1 loop /snap/gnome-3-26-1604/100
+loop31        7:31   0 528,6M  1 loop /snap/pycharm-community/267
+sda           8:0    1   7,5G  0 disk 
+└─sda1        8:1    1   7,4G  0 part /media/alumno/76E8-CACF
+nvme0n1     259:0    0 931,5G  0 disk 
+├─nvme0n1p1 259:1    0   128M  0 part 
+├─nvme0n1p2 259:2    0   100M  0 part 
+├─nvme0n1p3 259:3    0 686,8G  0 part 
+├─nvme0n1p4 259:4    0   221G  0 part /
+└─nvme0n1p5 259:5    0   510M  0 part 
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ /cp.[K .
+bash: /cp: No existe el archivo o el directorio
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ /cp
+bash: /cp: No existe el archivo o el directorio
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cp
+cp: falta un archivo como argumento
+Pruebe 'cp --help' para más información.
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cp .
+cp: falta el operando archivo de destino después de '.'
+Pruebe 'cp --help' para más información.
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cp .[K[K
+cp: falta un archivo como argumento
+Pruebe 'cp --help' para más información.
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cp.
+
+Orden «cp.» no encontrada. Quizá quiso decir:
+
+  la orden «cp.x» del paquete deb «quantum-espresso (6.4.1-1build2)»
+  la orden «cpr» del paquete deb «node-cpr (3.0.1-1)»
+  la orden «cp» del paquete deb «coreutils (8.30-3ubuntu2)»
+  la orden «cpu» del paquete deb «cpu (1.4.3-12)»
+  la orden «cph» del paquete deb «conda-package-handling (1.6.0-2build1)»
+  la orden «cpm» del paquete deb «cpm (0.32-1.2build2)»
+  la orden «cpp» del paquete deb «cpp (4:9.3.0-1ubuntu2)»
+
+Pruebe con: apt install <nombre del paquete deb>
+
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cp.[K .
+cp: falta el operando archivo de destino después de '.'
+Pruebe 'cp --help' para más información.
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cp .[K[K[Kd .
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cd ..
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cd ..
+]0;alumno@aula444: /home[01;32malumno@aula444[00m:[01;34m/home[00m$ cd ..[Kcd ..[Kcd ..[K
+]0;alumno@aula444: /home[01;32malumno@aula444[00m:[01;34m/home[00m$ cd ..
+]0;alumno@aula444: /[01;32malumno@aula444[00m:[01;34m/[00m$ cd ..ç
+bash: cd: ..ç: No existe el archivo o el directorio
+]0;alumno@aula444: /[01;32malumno@aula444[00m:[01;34m/[00m$ cd ..ç
+bash: cd: ..ç: No existe el archivo o el directorio
+]0;alumno@aula444: /[01;32malumno@aula444[00m:[01;34m/[00m$ cd ..ç[K
+]0;alumno@aula444: /[01;32malumno@aula444[00m:[01;34m/[00m$ cp  [K/home/alumno/.ssh(¡[K[K/[1P /home/alumno/.ssh/[1P /home/alumno/.ssh/m /home/alumno/.ssh/v /home/alumno/.ssh/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cid_rsa /media/alumbn[K[Kno/76e[KE8-CACF
+]0;alumno@aula444: /[01;32malumno@aula444[00m:[01;34m/[00m$ cd /home [K/alumnio[K[Ko/.ssh
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ ls+[K
+artuprec.pub  known_hosts
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cd ..
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ clip < ~/.sshe[K/id_ssh.pub
+bash: /home/alumno/.ssh/id_ssh.pub: No existe el archivo o el directorio
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ clip < ~/.ssh/id_ssh.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd ..[K[3Plscd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv /home/alumno/.ssh/id_rsa /media/alumno/76E8-CACF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kç[Kmv /home/alumno/.ssh/id_rsa /media/alumno/76E8-CACF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[K[Kcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv /home/alumno/.ssh/id_rsa /media/alumno/76E8-CACF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kç[K[K.[Kp[C[C[1P.[K .[K/cp .[K[1Pcp .[K. .d[C[C.[K.ç[Kmv /home/alumno/.ssh/id_rsa /media/alumno/76E8-CACF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd ..lip < ~/.ssh/id_ssh.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kclip < ~/.ssh/id_ssh.pub[C[1P.pub[1P.pub[1P.pubr.pubs.puba.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kclip < ~/.ssh/id_rsa.pub
+bash: /home/alumno/.ssh/id_rsa.pub: No existe el archivo o el directorio
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cd /home/alumno/.sshe[K
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ clip id[K[K[K[K[K[K[Kcl[K[Kcd ..
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cd ../home/alumno/.sshlip < ~/.ssh/id_rsa.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pd /home/alumno/.ssh..[K/home/alumno/.sshlip < ~/.ssh/id_rsa.pub[C[C[K[K[K[K
+bash: /home/alumno/.ssh/id_rsa: No existe el archivo o el directorio
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ clip < ~/.ssh/id_rsa[K[K[K[K[K[Kartuprec.pub
+
+No se ha encontrado la orden «clip», pero se puede instalar con:
+
+apt install geomview
+Pregunte al administrador.
+
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ clip < ~/.ssh/artuprec.pub[1P[1P[1P[1P[1@m[1@o[1@r[1@e[Kmore < ~/.ssh/artuprec.pub[1P/.ssh/artuprec.pub[1P/.ssh/artuprec.pub[1P/.ssh/artuprec.pubh/.ssh/artuprec.pubo/.ssh/artuprec.pubm/.ssh/artuprec.pube/.ssh/artuprec.pub[C/.ssh/artuprec.puba/.ssh/artuprec.publ/.ssh/artuprec.pubu/.ssh/artuprec.pubm/.ssh/artuprec.pubn/.ssh/artuprec.pubi/.ssh/artuprec.pubo/.ssh/artuprec.pub[1P/.ssh/artuprec.pub[1P/.ssh/artuprec.pub0/.ssh/artuprec.pub[1P/.ssh/artuprec.pubo/.ssh/artuprec.pub
+more: stat de home/alumno/.ssh/artuprec.pub ha fallado: No existe el archivo o el directorio
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ more home/alumno/.ssh/artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pclip < ~/.ssh/artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmore home/alumno/.ssh/artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmore home/alumno/.ssh/artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pclip < ~/.ssh/artuprec.pub[6Pid_rsad ..[K/home/alumno/.sshlip < ~/.ssh/id_rsa.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pd /home/alumno/.ssh
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cd /home/alumno/.sshmore home/alumno/.ssh/artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pclip < ~/.ssh/artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmore home/alumno/.ssh/artuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Prtuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDe3Jn0Ej9KLxbDheA9lCmPHaEzKg+9tWnbOPf8wIvsKPt1wBxeWevH7nqh8rQ8Mq/R2lzv3EURobQ/dloSBd+mxow8Un0fWmw9b7LYQOdY3njtahb0c5TV4Ql+v2bWLgDyc2oWQdnfNZR3QIAD2zE6W+Kzb+jmZ4BbRt0
+L6/Afbj1Nc7lEQ7vS+7MMmHhY/FFdsfe3YKtGgiZ3R9uIxN+6Lgdogwm5dtLJAAMrthQ9qVIpeujwPb/tg5g0tEWzxZ+dr9PVWwrOpNprdLWZ/sVXFBSjtfYOdsrE/OEPGqs+Yl5QmOR+GnXacRpezjnanbaqO331Nt+0SUcVGBffrhCT alumno@aula444
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ more artuprec.pub[Kc[Kmore artuprec.pubcd /home/alumno/.sshmore home/alumno/.ssh/artuprec.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pclip < ~/.ssh/artuprec.pub[6Pid_rsaartuprec.pub[C[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub[1Partuprec.pub
+
+No se ha encontrado la orden «clip», pero se puede instalar con:
+
+apt install geomview
+Pregunte al administrador.
+
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ clip < artuprec.pub[1P artuprec.pub[1Partuprec.pub
+
+No se ha encontrado la orden «clip», pero se puede instalar con:
+
+apt install geomview
+Pregunte al administrador.
+
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ clip artuprec.pub< artuprec.pub[2Partuprec.pub[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cp /media/alumno/artuprec[K[K[K[K[K[K[K[K76R[KE8-CACF /home/alumno/.sh[Ksh/[K
+cp: -r not specified; omitting directory '/media/alumno/76E8-CACF'
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cp /media/alumno/76E8-CACF /home/alumno/.ssh/ /home/alumno/.ssha /home/alumno/.sshr /home/alumno/.ssht /home/alumno/.sshu /home/alumno/.sshp /home/alumno/.sshr /home/alumno/.sshe /home/alumno/.sshc /home/alumno/.ssh. /home/alumno/.sshp /home/alumno/.sshu /home/alumno/.sshb /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cp /media/alumno/76E8-CACF/artuprec /home/alumno/.ssh[1P[1P[1@m[Km /media/alumno/76E8-CACF/artuprec /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P/home/alumno/.sshv /home/alumno/.ssh[Kmv /home/alumno/.ssh[C/artuprec /home/alumno/.ssh/id_rsa
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone ^V[K[K git@github.com:artuprec/artuprec.git
+Clonando en 'artuprec'...
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.121.3' (ECDSA) to the list of known hosts.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0755 for '/home/alumno/.ssh/id_rsa' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "/home/alumno/.ssh/id_rsa": bad permissions
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ /[Krm /home/alumno/.ssh/idr_r[K[K[K[Kd_rsa
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ rm /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Prm /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Prm /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git
+Clonando en 'artuprec'...
+Warning: Permanently added the ECDSA host key for IP address '140.82.121.4' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone git@github.com:artuprec/artuprec.git
+Clonando en 'artuprec'...
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ /[Kd[Kcd /home/alumno/..sh[K[K[Kssh
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ ls
+artuprec.pub  known_hosts
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ lscd /home/alumno/.sshgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Prm /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git
+Clonando en 'artuprec'...
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ ls
+artuprec.pub  known_hosts
+]0;alumno@aula444: ~/.ssh[01;32malumno@aula444[00m:[01;34m~/.ssh[00m$ cd ..
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cd ..[3Plsgit clone git@github.com:artuprec/artuprec.git
+Clonando en 'artuprec'...
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone git@github.com:artuprec/artuprec.git
+Clonando en 'artuprec'...
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone git@github.com:artuprec/artuprec.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/artuprec/artuprec.git
+Clonando en 'artuprec'...
+warning: Pareces haber clonado un repositorio sin contenido.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone https://github.com/artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgit@github.com:artuprec/artuprec.git
+fatal: la ruta de destino 'artuprec' ya existe y no es un directorio vacío.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone git@github.com:artuprec/artuprec.git
+fatal: la ruta de destino 'artuprec' ya existe y no es un directorio vacío.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone git@github.com:artuprec/artuprecprpa.git
+Clonando en 'artuprecprpa'...
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git clone git@github.com:artuprec/artuprecprpa.git[4P.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgit@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[3Plsgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Prm /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv /home/alumno/.ssh/artuprec /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcp /media/alumno/76E8-CACF/artuprec /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv /home/alumno/.ssh/artuprec /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Prm /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..git clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgit@github.com:artuprec/artuprec.gitprpa.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone git@github.com:artuprec/artuprecprpa.git[4P.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgit@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[3Plsgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Prm /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv /home/alumno/.ssh/artuprec /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcp /media/alumno/76E8-CACF/artuprec /home/alumno/.ssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv /home/alumno/.ssh/artuprec /home/alumno/.ssh/id_rsa[C[1P[7Pgit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Prm /home/alumno/.ssh/id_rsagit clone git@github.com:artuprec/artuprec.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv /home/alumno/.ssh/artuprec /home/alumno/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /media/alumno/76E8-CACF/artuprec /home/alumno/.ssh
+cp: no se puede efectuar `stat' sobre '/media/alumno/76E8-CACF/artuprec': No existe el archivo o el directorio
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cp /media/alumno/76E8-CACF/artuprec /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.ssh[1P /home/alumno/.sshi /home/alumno/.sshd /home/alumno/.ssh/ /home/alumno/.ssh[1P /home/alumno/.sshr /home/alumno/.ssh[1P /home/alumno/.ssh_ /home/alumno/.sshr /home/alumno/.sshs /home/alumno/.ssha /home/alumno/.ssh
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ cp /media/alumno/76E8-CACF/id_rsa /home/alumno/.ssh[2@artuprec[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pgit clone git@github.com:artuprec/artuprecprpa.git[4P.gitprpa.git
+Clonando en 'artuprecprpa'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0755 for '/home/alumno/.ssh/id_rsa' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "/home/alumno/.ssh/id_rsa": bad permissions
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ chmod 600 ~/.ssh/id_rsa
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ chmod 600 ~/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:artuprec/artuprecprpa.git
+Clonando en 'artuprecprpa'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Recibiendo objetos:  33% (1/3)Recibiendo objetos:  66% (2/3)Recibiendo objetos: 100% (3/3)Recibiendo objetos: 100% (3/3), listo.
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git [K[K[K[Kgit commit prueba
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+]0;alumno@aula444: ~[01;32malumno@aula444[00m:[01;34m~[00m$ git commit prueba^?^?[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd .([K[K~/arrtu[K[K[Ktuprecprpra[K[Ka
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git commit -m Prube[K[Ke[K[K[K[K"Prueba relinda"
+
+*** Por favor cuéntame quien eres.
+
+Corre
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula444.(none)')
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ ^C
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ /home/alumno/artuprecprpa/prueba[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit config --global user.email "you@example.com"
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git config --global user.email "you@example.com"[1Pm"[1Pm"[1Pm"[1Pm"[1Pm"[1Pm"[1P"[1Pm"[1Pm"[1Pm"[1Pm"[1Pm"[1Pm"[1Pm"am"rm"um"[1Pm"tm"um"pm"rm"em"cm"@m"um"cm"[Cm".m"em"sm"[C[C[C[1P"
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git push[K[K[K[K[K[K[K[Kgi[K[Kgit config --global user.email "artuprec@ucm.es"you@example.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pmmit -m "Prueba relinda"
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31mprueba.py[m
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git commit -m "Prueba relinda"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd prueba.py
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git add prueba.pycommit -m "Prueba relinda"nfig --global user.email "artuprec@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pmmit -m "Prueba relinda"[13Padd prueba.py[K[K[K[K[K[K[K[K[K[K[K[K[Kpsuh
+git: 'psuh'no es un comando de git. Mira 'git --help'.
+
+El comando más similar es
+	push
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git push
+Everything up-to-date
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git [K[K[K[Kgit pushsuhadd prueba.pycommit -m "Prueba relinda"
+[main c934134] Prueba relinda
+ 1 file changed, 9 insertions(+)
+ create mode 100644 prueba.py
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ git commit -m "Prueba relinda"push[Ksuhush
+Enumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 12 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 386 bytes | 386.00 KiB/s, listo.
+Total 3 (delta 0), reusado 0 (delta 0)
+To github.com:artuprec/artuprecprpa.git
+   00d08f6..c934134  main -> main
+]0;alumno@aula444: ~/artuprecprpa[01;32malumno@aula444[00m:[01;34m~/artuprecprpa[00m$ exit
+
+Script done on 2022-02-03 11:39:11+01:00 [COMMAND_EXIT_CODE="0"]
